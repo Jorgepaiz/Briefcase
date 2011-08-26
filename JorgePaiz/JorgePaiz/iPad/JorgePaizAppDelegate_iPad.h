@@ -9,5 +9,10 @@
 #import "JorgePaizAppDelegate.h"
 
 @interface JorgePaizAppDelegate_iPad : JorgePaizAppDelegate
+{
+    UITabBarController *tabBarController;
+}
+
+@property (nonatomic, retain) IBOutlet UITabBarController *tabBarController;
 
 @end
