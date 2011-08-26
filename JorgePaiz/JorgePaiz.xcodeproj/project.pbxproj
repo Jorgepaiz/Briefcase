@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8893A2F614073A01003F20FC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8893A2F514073A01003F20FC /* UIKit.framework */; };
+		8893A2F814073A01003F20FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8893A2F714073A01003F20FC /* Foundation.framework */; };
+		8893A2FA14073A01003F20FC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8893A2F914073A01003F20FC /* CoreGraphics.framework */; };
+		8893A30014073A01003F20FC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8893A2FE14073A01003F20FC /* InfoPlist.strings */; };
+		8893A30214073A01003F20FC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8893A30114073A01003F20FC /* main.m */; };
+		8893A30614073A01003F20FC /* JorgePaizAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8893A30514073A01003F20FC /* JorgePaizAppDelegate.m */; };
+		8893A30A14073A01003F20FC /* JorgePaizAppDelegate_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 8893A30914073A01003F20FC /* JorgePaizAppDelegate_iPhone.m */; };
+		8893A30D14073A01003F20FC /* MainWindow_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8893A30B14073A01003F20FC /* MainWindow_iPhone.xib */; };
+		8893A31114073A01003F20FC /* JorgePaizAppDelegate_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 8893A31014073A01003F20FC /* JorgePaizAppDelegate_iPad.m */; };
+		8893A31414073A01003F20FC /* MainWindow_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8893A31214073A01003F20FC /* MainWindow_iPad.xib */; };
+		8893A31C14073A01003F20FC /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8893A31B14073A01003F20FC /* SenTestingKit.framework */; };
+		8893A31D14073A01003F20FC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8893A2F514073A01003F20FC /* UIKit.framework */; };
+		8893A31E14073A01003F20FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8893A2F714073A01003F20FC /* Foundation.framework */; };
+		8893A31F14073A01003F20FC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8893A2F914073A01003F20FC /* CoreGraphics.framework */; };
+		8893A32714073A01003F20FC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8893A32514073A01003F20FC /* InfoPlist.strings */; };
+		8893A32914073A01003F20FC /* JorgePaizTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 8893A32814073A01003F20FC /* JorgePaizTests.h */; };
+		8893A32B14073A01003F20FC /* JorgePaizTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8893A32A14073A01003F20FC /* JorgePaizTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8893A32014073A01003F20FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8893A2E814073A01003F20FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8893A2F014073A01003F20FC;
+			remoteInfo = JorgePaiz;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8893A2F114073A01003F20FC /* JorgePaiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JorgePaiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8893A2F514073A01003F20FC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8893A2F714073A01003F20FC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8893A2F914073A01003F20FC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8893A2FD14073A01003F20FC /* JorgePaiz-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JorgePaiz-Info.plist"; sourceTree = "<group>"; };
+		8893A2FF14073A01003F20FC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8893A30114073A01003F20FC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8893A30314073A01003F20FC /* JorgePaiz-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JorgePaiz-Prefix.pch"; sourceTree = "<group>"; };
+		8893A30414073A01003F20FC /* JorgePaizAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JorgePaizAppDelegate.h; sourceTree = "<group>"; };
+		8893A30514073A01003F20FC /* JorgePaizAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JorgePaizAppDelegate.m; sourceTree = "<group>"; };
+		8893A30814073A01003F20FC /* JorgePaizAppDelegate_iPhone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = JorgePaizAppDelegate_iPhone.h; path = iPhone/JorgePaizAppDelegate_iPhone.h; sourceTree = "<group>"; };
+		8893A30914073A01003F20FC /* JorgePaizAppDelegate_iPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = JorgePaizAppDelegate_iPhone.m; path = iPhone/JorgePaizAppDelegate_iPhone.m; sourceTree = "<group>"; };
+		8893A30C14073A01003F20FC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPhone/en.lproj/MainWindow_iPhone.xib; sourceTree = "<group>"; };
+		8893A30F14073A01003F20FC /* JorgePaizAppDelegate_iPad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = JorgePaizAppDelegate_iPad.h; path = iPad/JorgePaizAppDelegate_iPad.h; sourceTree = "<group>"; };
+		8893A31014073A01003F20FC /* JorgePaizAppDelegate_iPad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = JorgePaizAppDelegate_iPad.m; path = iPad/JorgePaizAppDelegate_iPad.m; sourceTree = "<group>"; };
+		8893A31314073A01003F20FC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPad/en.lproj/MainWindow_iPad.xib; sourceTree = "<group>"; };
+		8893A31A14073A01003F20FC /* JorgePaizTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JorgePaizTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8893A31B14073A01003F20FC /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		8893A32414073A01003F20FC /* JorgePaizTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JorgePaizTests-Info.plist"; sourceTree = "<group>"; };
+		8893A32614073A01003F20FC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8893A32814073A01003F20FC /* JorgePaizTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JorgePaizTests.h; sourceTree = "<group>"; };
+		8893A32A14073A01003F20FC /* JorgePaizTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JorgePaizTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8893A2EE14073A01003F20FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8893A2F614073A01003F20FC /* UIKit.framework in Frameworks */,
+				8893A2F814073A01003F20FC /* Foundation.framework in Frameworks */,
+				8893A2FA14073A01003F20FC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8893A31614073A01003F20FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8893A31C14073A01003F20FC /* SenTestingKit.framework in Frameworks */,
+				8893A31D14073A01003F20FC /* UIKit.framework in Frameworks */,
+				8893A31E14073A01003F20FC /* Foundation.framework in Frameworks */,
+				8893A31F14073A01003F20FC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8893A2E614073A01003F20FC = {
+			isa = PBXGroup;
+			children = (
+				8893A2FB14073A01003F20FC /* JorgePaiz */,
+				8893A32214073A01003F20FC /* JorgePaizTests */,
+				8893A2F414073A01003F20FC /* Frameworks */,
+				8893A2F214073A01003F20FC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8893A2F214073A01003F20FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8893A2F114073A01003F20FC /* JorgePaiz.app */,
+				8893A31A14073A01003F20FC /* JorgePaizTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8893A2F414073A01003F20FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8893A2F514073A01003F20FC /* UIKit.framework */,
+				8893A2F714073A01003F20FC /* Foundation.framework */,
+				8893A2F914073A01003F20FC /* CoreGraphics.framework */,
+				8893A31B14073A01003F20FC /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8893A2FB14073A01003F20FC /* JorgePaiz */ = {
+			isa = PBXGroup;
+			children = (
+				8893A30414073A01003F20FC /* JorgePaizAppDelegate.h */,
+				8893A30514073A01003F20FC /* JorgePaizAppDelegate.m */,
+				8893A30714073A01003F20FC /* iPhone */,
+				8893A30E14073A01003F20FC /* iPad */,
+				8893A2FC14073A01003F20FC /* Supporting Files */,
+			);
+			path = JorgePaiz;
+			sourceTree = "<group>";
+		};
+		8893A2FC14073A01003F20FC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8893A2FD14073A01003F20FC /* JorgePaiz-Info.plist */,
+				8893A2FE14073A01003F20FC /* InfoPlist.strings */,
+				8893A30114073A01003F20FC /* main.m */,
+				8893A30314073A01003F20FC /* JorgePaiz-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8893A30714073A01003F20FC /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				8893A30814073A01003F20FC /* JorgePaizAppDelegate_iPhone.h */,
+				8893A30914073A01003F20FC /* JorgePaizAppDelegate_iPhone.m */,
+				8893A30B14073A01003F20FC /* MainWindow_iPhone.xib */,
+			);
+			name = iPhone;
+			sourceTree = "<group>";
+		};
+		8893A30E14073A01003F20FC /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				8893A30F14073A01003F20FC /* JorgePaizAppDelegate_iPad.h */,
+				8893A31014073A01003F20FC /* JorgePaizAppDelegate_iPad.m */,
+				8893A31214073A01003F20FC /* MainWindow_iPad.xib */,
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+		8893A32214073A01003F20FC /* JorgePaizTests */ = {
+			isa = PBXGroup;
+			children = (
+				8893A32814073A01003F20FC /* JorgePaizTests.h */,
+				8893A32A14073A01003F20FC /* JorgePaizTests.m */,
+				8893A32314073A01003F20FC /* Supporting Files */,
+			);
+			path = JorgePaizTests;
+			sourceTree = "<group>";
+		};
+		8893A32314073A01003F20FC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8893A32414073A01003F20FC /* JorgePaizTests-Info.plist */,
+				8893A32514073A01003F20FC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8893A2F014073A01003F20FC /* JorgePaiz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8893A32E14073A01003F20FC /* Build configuration list for PBXNativeTarget "JorgePaiz" */;
+			buildPhases = (
+				8893A2ED14073A01003F20FC /* Sources */,
+				8893A2EE14073A01003F20FC /* Frameworks */,
+				8893A2EF14073A01003F20FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JorgePaiz;
+			productName = JorgePaiz;
+			productReference = 8893A2F114073A01003F20FC /* JorgePaiz.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8893A31914073A01003F20FC /* JorgePaizTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8893A33114073A01003F20FC /* Build configuration list for PBXNativeTarget "JorgePaizTests" */;
+			buildPhases = (
+				8893A31514073A01003F20FC /* Sources */,
+				8893A31614073A01003F20FC /* Frameworks */,
+				8893A31714073A01003F20FC /* Resources */,
+				8893A31814073A01003F20FC /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8893A32114073A01003F20FC /* PBXTargetDependency */,
+			);
+			name = JorgePaizTests;
+			productName = JorgePaizTests;
+			productReference = 8893A31A14073A01003F20FC /* JorgePaizTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8893A2E814073A01003F20FC /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 8893A2EB14073A01003F20FC /* Build configuration list for PBXProject "JorgePaiz" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8893A2E614073A01003F20FC;
+			productRefGroup = 8893A2F214073A01003F20FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8893A2F014073A01003F20FC /* JorgePaiz */,
+				8893A31914073A01003F20FC /* JorgePaizTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8893A2EF14073A01003F20FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8893A30014073A01003F20FC /* InfoPlist.strings in Resources */,
+				8893A30D14073A01003F20FC /* MainWindow_iPhone.xib in Resources */,
+				8893A31414073A01003F20FC /* MainWindow_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8893A31714073A01003F20FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8893A32714073A01003F20FC /* InfoPlist.strings in Resources */,
+				8893A32914073A01003F20FC /* JorgePaizTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8893A31814073A01003F20FC /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8893A2ED14073A01003F20FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8893A30214073A01003F20FC /* main.m in Sources */,
+				8893A30614073A01003F20FC /* JorgePaizAppDelegate.m in Sources */,
+				8893A30A14073A01003F20FC /* JorgePaizAppDelegate_iPhone.m in Sources */,
+				8893A31114073A01003F20FC /* JorgePaizAppDelegate_iPad.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8893A31514073A01003F20FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8893A32B14073A01003F20FC /* JorgePaizTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8893A32114073A01003F20FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8893A2F014073A01003F20FC /* JorgePaiz */;
+			targetProxy = 8893A32014073A01003F20FC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8893A2FE14073A01003F20FC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8893A2FF14073A01003F20FC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8893A30B14073A01003F20FC /* MainWindow_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8893A30C14073A01003F20FC /* en */,
+			);
+			name = MainWindow_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		8893A31214073A01003F20FC /* MainWindow_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8893A31314073A01003F20FC /* en */,
+			);
+			name = MainWindow_iPad.xib;
+			sourceTree = "<group>";
+		};
+		8893A32514073A01003F20FC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8893A32614073A01003F20FC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8893A32C14073A01003F20FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8893A32D14073A01003F20FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8893A32F14073A01003F20FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JorgePaiz/JorgePaiz-Prefix.pch";
+				INFOPLIST_FILE = "JorgePaiz/JorgePaiz-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8893A33014073A01003F20FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JorgePaiz/JorgePaiz-Prefix.pch";
+				INFOPLIST_FILE = "JorgePaiz/JorgePaiz-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8893A33214073A01003F20FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JorgePaiz.app/JorgePaiz";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JorgePaiz/JorgePaiz-Prefix.pch";
+				INFOPLIST_FILE = "JorgePaizTests/JorgePaizTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		8893A33314073A01003F20FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JorgePaiz.app/JorgePaiz";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JorgePaiz/JorgePaiz-Prefix.pch";
+				INFOPLIST_FILE = "JorgePaizTests/JorgePaizTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8893A2EB14073A01003F20FC /* Build configuration list for PBXProject "JorgePaiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8893A32C14073A01003F20FC /* Debug */,
+				8893A32D14073A01003F20FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8893A32E14073A01003F20FC /* Build configuration list for PBXNativeTarget "JorgePaiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8893A32F14073A01003F20FC /* Debug */,
+				8893A33014073A01003F20FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8893A33114073A01003F20FC /* Build configuration list for PBXNativeTarget "JorgePaizTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8893A33214073A01003F20FC /* Debug */,
+				8893A33314073A01003F20FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8893A2E814073A01003F20FC /* Project object */;
+}
